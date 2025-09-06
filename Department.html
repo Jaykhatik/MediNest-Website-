@@ -39,7 +39,7 @@
                 <ul class="navbar-nav mx-auto gap-lg-4 text-center text-colour">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Department.html">Departments</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Departments</a></li>
                     <li class="nav-item"><a class="nav-link" href="Service.html">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="doctors.html">Doctors</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">More Pages</a></li>
@@ -56,7 +56,7 @@
                             <li><a class="dropdown-item" href="#">Something Else</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item"><a class="nav-link active" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
                 </ul>
 
                 <!-- Appointment Button -->
@@ -68,7 +68,7 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-12">
-                    <h2>Contact</h2>
+                    <h2>Departments</h2>
                     <span>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas
                         consequatur ut a odio</span><br>
                     <span>voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum
@@ -83,98 +83,171 @@
                 <div class="row">
                     <ol class="list-unstyled d-flex gap-4 mb-0">
                         <li class="home-text">Home</li>
-                        <li class="current">Contact</li>
+                        <li class="current">Departments</li>
                     </ol>
                 </div>
             </div>
         </div>
     </section>
-    <section class="my-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-4">
-                    <div class="info-box1">
-                        <div class="icon-back mx-auto mb-3">
-                            <i class="bi bi-geo-alt fs-3"></i>
-                        </div>
-                        <h4>Our Address</h4>
-                        <p class="text-muted">4582 Magnolia Avenue
-                            <br>
-                            Riverside, CA 92506
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="info-box1">
-                        <div class="icon-back mx-auto mb-3">
-                            <i class="bi bi-telephone fs-3"></i>
-                        </div>
-                        <h4>Call Us</h4>
-                        <p class="text-muted">+1 (951) 684-9123
-                            <br>
-                            +1 (951) 787-4534
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="info-box1">
-                        <div class="icon-back mx-auto mb-3">
-                            <i class="bi bi-envelope fs-3"></i>
-                        </div>
-                        <h4>Email Us</h4>
-                        <p class="text-muted">contact@example.com
-                            <br>
-                            support@example.com
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="my-5">
-        <div class="container py-3">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="map-container">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.721135202017!2d72.6064277753131!3d22.99727987919149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85c2fc005927%3A0x918e69150ca1c935!2sTOPS%20Technologies!5e0!3m2!1sen!2sin!4v1757009549836!5m2!1sen!2sin"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <form action="">
-                        <div class="row gy-3">
-                            <div class="col-md-6">
-                                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+    <section>
+        <div class="container my-5">
+            <div class="row py-3 g-5">
+                <!-- Cardiology -->
+                <div class="col-md-6">
+                    <div class="card shadow rounded-4 border-0 h-100 department-card">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="icon-box me-3">
+                                    <i class="fas fa-heartbeat"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold mb-1">Cardiology</h5>
+                                    <h6 class="text-uppercase text-muted small mb-0">Heart & Vascular</h6>
+                                </div>
                             </div>
-                            <div class="col-md-6">
-                                <input type="email" class="form-control" name="email" placeholder="Your Email"
-                                    required="" fdprocessedid="gknxvb">
-                            </div>
-                            <div class="col-md-12">
-                                <input type="text" class="form-control" name="subject" placeholder="Subject" required>
-                            </div>
-                            <div class="col-md-12">
-                                <textarea class="form-control" name="message" rows="10" placeholder="Message"
-                                    required></textarea>
-                            </div>
-                            <div class="col-md-12 text-center">
-                                <!-- <div class="loading">Loading</div>
-                                <div class="error-message"></div>
-                                <div class="sent-message">Your message has been sent. Thank you!</div> -->
-                                <button type="submit" class="send-message-button">Send Message</button>
+
+                            <p class="mb-3">
+                                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                                egestas.
+                                Vestibulum tortor quam, feugiat vitae.
+                            </p>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge rounded-pill department-card-badge">24/7 Emergency</span>
+                                <span class="badge rounded-pill department-card-badge">Advanced Diagnostics</span>
                             </div>
                         </div>
-                    </form>
+                        <img src="images/cardiology-2 (1).webp" class="department-img object-fit-cover rounded-bottom-4"
+                            alt="Cardiology">
+                    </div>
                 </div>
-                <div class="col-lg-12">
-                    <div class="social-links text-center mt-5 aos-init aos-animate" data-aos="zoom-in">
-                        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-                        <a href="#" class="youtube"><i class="bi bi-youtube"></i></a>
+                <!-- Neurology -->
+                <div class="col-md-6">
+                    <div class="card shadow rounded-4 border-0 h-100 department-card">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="icon-box me-3">
+                                    <i class="fas fa-brain"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold mb-1">Neurology</h5>
+                                    <h6 class="text-uppercase text-muted small mb-0">Brain & Nervous System</h6>
+                                </div>
+                            </div>
+
+                            <p class="mb-3">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </p>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge rounded-pill department-card-badge">MRI Available</span>
+                                <span class="badge rounded-pill department-card-badge">Specialist Team</span>
+                            </div>
+                        </div>
+                        <img src="images/neurology-3.webp" class="department-img object-fit-cover rounded-bottom-4"
+                            alt="Cardiology">
+                    </div>
+                </div>
+                <!-- Orthopedics -->
+                <div class="col-md-6">
+                    <div class="card shadow rounded-4 border-0 h-100 department-card">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="icon-box me-3">
+                                    <i class="fas fa-bone"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold mb-1">Orthopedics</h5>
+                                    <h6 class="text-uppercase text-muted small mb-0">Bones & Joints</h6>
+                                </div>
+                            </div>
+
+                            <p class="mb-3">
+                               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute.
+                            </p>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge rounded-pill department-card-badge">Sports Medicine</span>
+                                <span class="badge rounded-pill department-card-badge">Joint Replacement</span>
+                            </div>
+                        </div>
+                        <img src="images/orthopedics-4.webp" class="department-img object-fit-cover rounded-bottom-4"
+                            alt="Cardiology">
+                    </div>
+                </div>
+                <!-- Pediatrics -->
+                <div class="col-md-6">
+                    <div class="card shadow rounded-4 border-0 h-100 department-card">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="icon-box me-3">
+                                    <i class="fas fa-baby"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold mb-1">Pediatrics</h5>
+                                    <h6 class="text-uppercase text-muted small mb-0">Children's Health</h6>
+                                </div>
+                            </div>
+
+                            <p class="mb-3">
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum sed.
+                            </p>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge rounded-pill department-card-badge">Child-Friendly</span>
+                                <span class="badge rounded-pill department-card-badge">Vaccination Center</span>
+                            </div>
+                        </div>
+                        <img src="images/pediatrics-2.webp" class="department-img object-fit-cover rounded-bottom-4"
+                            alt="Cardiology">
+                    </div>
+                </div>
+                <!-- Laboratory -->
+                <div class="col-md-6">
+                    <div class="card shadow rounded-4 border-0 h-100 department-card">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="icon-box me-3">
+                                    <i class="fas fa-microscope"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold mb-1">Laboratory</h5>
+                                    <h6 class="text-uppercase text-muted small mb-0">Diagnostic Services</h6>
+                                </div>
+                            </div>
+
+                            <p class="mb-3">
+                                Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu ac tortor dignissim.
+                            </p>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge rounded-pill department-card-badge">Quick Results</span>
+                                <span class="badge rounded-pill department-card-badge">Digital Reports</span>
+                            </div>
+                        </div>
+                        <img src="images/laboratory-3.webp" class="department-img object-fit-cover rounded-bottom-4"
+                            alt="Cardiology">
+                    </div>
+                </div>
+                <!-- Emergency -->
+                <div class="col-md-6">
+                    <div class="card shadow rounded-4 border-0 h-100 department-card">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="icon-box me-3">
+                                    <i class="bi bi-exclamation-circle-fill"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold mb-1">Emergency</h5>
+                                    <h6 class="text-uppercase text-muted small mb-0">24/7 Critical Care</h6>
+                                </div>
+                            </div>
+
+                            <p class="mb-3">
+                                Convallis tellus id interdum velit laoreet id donec ultrices tincidunt arcu non sodales neque sodales ut etiam.
+                            </p>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge rounded-pill department-card-badge">Round-the-Clock</span>
+                                <span class="badge rounded-pill department-card-badge">Trauma Center</span>
+                            </div>
+                        </div>
+                        <img src="images/emergency-4.webp" class="department-img object-fit-cover rounded-bottom-4"
+                            alt="Cardiology">
                     </div>
                 </div>
             </div>

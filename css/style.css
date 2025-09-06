@@ -701,7 +701,7 @@ body {
 }
 
 /* service page css start */
-.service-card {
+.service-card-services {
     background: #dee5e6;
     border-radius: 25px;
     padding: 0;
@@ -711,6 +711,29 @@ body {
     position: relative;
     overflow: hidden;
     box-shadow: 5px 5px 10px #024747;
+}
+.service-card-services:hover{
+    transform: translateY(-10px);
+    transition: all 0.4s ease;
+}
+.service-card-services:hover .service-icon{
+    color: #024747;
+    background-color: whitesmoke;
+    border: 1px solid #024747;
+    transform: rotate(30deg);
+    transition: all 0.4s ease-in;
+}
+.service-card-services:hover .service-btn{
+    background-color: #dee5e6;
+    color: #024747;
+    border: 1px solid #024747;
+    box-shadow: 5px 5px 10px #024747;
+}
+.row .col-lg-4:nth-child(4) .service-card-services:hover .service-btn{
+    background-color: whitesmoke;
+    color: red;
+    border: 1px solid red;
+    box-shadow: 5px 5px 10px red;
 }
 .service-header {
     padding: 25px;
@@ -784,14 +807,10 @@ body {
     width: 100%;
     justify-content: center;
 }
-
-.service-btn:hover {
-    background-color: #dee5e6;
-    color: #024747;
-    transform: translateX(8px);
-    border: 1px solid #024747;   /* 🔹 Only change color */
-    box-shadow: 5px 5px 10px #024747;
+.row .col-lg-4:nth-child(4) .service-btn{
+    background-color: rgb(185, 30, 30);
 }
+
 .service-stats{
     background-color: #dee5e6;
     color: #024747;
@@ -823,4 +842,40 @@ body {
 .cta-btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+/* Department css start */
+.icon-box {
+    width: 55px;
+    height: 55px;
+    border-radius: 12px;
+    background-color: #dee5e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: #024747;
+    transition: all 0.3s ease;
+}
+
+.department-img {
+    height: 200px;
+}
+
+.department-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.department-card-badge{
+    background-color: #024747;
+    color: #dee5e6;
+}
+
+.department-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.department-card:hover .icon-box {
+    transform: scale(1.15);
+    background-color: #024747;
+    color: #dee5e6;
 }
